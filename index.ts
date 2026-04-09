@@ -14,7 +14,7 @@ const template = Handlebars.compile(await websiteTemplate.text());
 
 const server = Bun.serve({
   routes: {
-    "/favicon.ico": Bun.file("./favicon.png"),
+    "/favicon.png": Bun.file("./website/public/favicon.png"),
     "/styles.min.css": Bun.file("./website/styles.min.css"),
 
     "/": () => {
