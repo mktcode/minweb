@@ -15,6 +15,7 @@ const template = Handlebars.compile(await websiteTemplate.text());
 const server = Bun.serve({
   routes: {
     "/favicon.ico": Bun.file("./favicon.png"),
+    "/styles.min.css": Bun.file("./website/styles.min.css"),
 
     "/": () => {
       return new Response(template(data), {
@@ -25,7 +26,7 @@ const server = Bun.serve({
     },
 
     "/:page": req => {
-      return new Response(template({ page: req.params.page }), {
+      return new Response(template(data), {
         headers: {
           "Content-Type": "text/html",
         },
