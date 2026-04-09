@@ -1,0 +1,23 @@
+{
+  "title": "My Shop",
+  "heading": "Product List",
+  "siteName": "My Shop",
+  "year": 2026,
+  "products": [
+    {
+      "name": "Laptop",
+      "description": "Lightweight and powerful",
+      "price": 999
+    },
+    {
+      "name": "Mouse",
+      "description": "Wireless ergonomic mouse",
+      "price": 29
+    },
+    {
+      "name": "Keyboard",
+      "description": "Mechanical keyboard",
+      "price": 79
+    }
+  ]
+}
