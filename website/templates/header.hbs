@@ -1,5 +1,15 @@
-<header>
-  <nav>
-    <h2 class="text-4xl font-bold text-indigo-500">{{siteName}}</h2>
-  </nav>
+<header class="bg-white/70 backdrop-blur sticky top-0">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="font-semibold">{{siteName}}</div>
+
+    <nav class="hidden sm:flex items-center gap-6 text-sm text-gray-600">
+      <a href="#" class="hover:text-black">Features</a>
+      <a href="#" class="hover:text-black">Pricing</a>
+      <a href="#" class="hover:text-black">Docs</a>
+    </nav>
+
+    <a href="#" class="text-sm bg-black text-white px-4 py-2 rounded-md shadow-sm hover:shadow-md transition">
+      Sign in
+    </a>
+  </div>
 </header>

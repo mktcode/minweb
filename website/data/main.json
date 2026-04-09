@@ -1,23 +1,54 @@
 {
-  "title": "My Shop",
-  "heading": "Product List",
-  "siteName": "My Shop",
+  "title": "Acme SaaS",
+  "siteName": "Acme",
   "year": 2026,
-  "products": [
+
+  "hero": {
+    "title": "Build faster. Ship smarter.",
+    "subtitle": "A minimal platform to manage your products, workflows and infrastructure without complexity.",
+    "primaryCta": "Get started",
+    "secondaryCta": "Live demo"
+  },
+
+  "features": [
     {
-      "name": "Laptop",
-      "description": "Lightweight and powerful",
-      "price": 999
+      "title": "Simple by design",
+      "description": "No unnecessary complexity. Everything is where you expect it."
     },
     {
-      "name": "Mouse",
-      "description": "Wireless ergonomic mouse",
+      "title": "Fast performance",
+      "description": "Optimized for speed at every layer, from UI to backend."
+    },
+    {
+      "title": "Developer-first",
+      "description": "Clean APIs and predictable behavior for efficient workflows."
+    }
+  ],
+
+  "productsHeading": "Flexible plans",
+  "productsSubheading": "Choose a plan that fits your current stage.",
+
+  "products": [
+    {
+      "name": "Starter",
+      "description": "Essential features for small projects and prototypes.",
+      "price": 9
+    },
+    {
+      "name": "Pro",
+      "description": "Advanced capabilities for growing teams.",
       "price": 29
     },
     {
-      "name": "Keyboard",
-      "description": "Mechanical keyboard",
-      "price": 79
+      "name": "Enterprise",
+      "description": "Custom solutions and dedicated support.",
+      "price": 99
     }
-  ]
+  ],
+
+  "cta": {
+    "title": "Start building today",
+    "subtitle": "No credit card required. Set up in minutes.",
+    "button": "Create account"
+  }
 }
